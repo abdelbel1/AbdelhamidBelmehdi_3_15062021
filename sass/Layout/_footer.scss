@@ -1,0 +1,28 @@
+footer {
+  background-color: #353535;
+  padding: 25px 0;
+  color: white;
+}
+  footer h3 {
+    font-family: "Shrikhand", "sans-serif";
+    padding:0 35px ;
+    font-weight: 500;
+  }
+  footer ul {
+    list-style-type: none;
+
+    li {
+      padding: 5px 0 5px 0;
+
+      a {
+        color: white;
+      }
+    }
+  }
+
+    .fa-utensils {
+      margin-right: 12px;
+    }
+    .fa-hands-helping {
+      margin-right: 5px;
+    }
