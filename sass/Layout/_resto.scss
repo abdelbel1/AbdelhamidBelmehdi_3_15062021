@@ -1,0 +1,48 @@
+.restaurant__titre {
+    width: 100%;
+}
+.restaurant__titre h2 {
+  padding: 30px 0px 0px 20px;
+}
+.carte {
+  @include carte;
+  @include tablet {
+    width: 45%;
+  }
+}
+.carte img {
+  @include carte-img ;
+}
+.main__restaurant {
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  @include tablet {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+}
+.heart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carte figure {
+  @include carte-figure;
+}
+.carte figcaption {
+  @include carte-figcaption;
+}
+.heart h3 {
+  margin-top:10px;
+  margin-bottom: 0;
+}
+.heart div {
+  margin-top:20px;
+  font-weight: 200;
+}
+.carte figcaption p{
+  margin-top: 0;
+}
