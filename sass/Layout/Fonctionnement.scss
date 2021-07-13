@@ -1,0 +1,40 @@
+.howto__title {
+    margin-left: 30px;
+}
+.number {
+  @include number;
+  @include tablet {
+    right: 0;
+    top: -15px;
+  }
+}
+.howto__icon i {
+  color: #b2b2b2;
+  margin-left: 20px;
+}
+.etape p{
+  margin-left: 20px;
+  font-weight: 700;
+}
+.etape:hover .fas {
+  color: $color-primary;
+}
+
+.Fonctionnement__etapes{
+  @include tablet {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  @include desktop {
+    padding: 0 20px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.Fonctionnement {
+  padding: 40px 0;
+}
