@@ -488,6 +488,7 @@ footer ul li a {
 }
 
 .fill {
+  opacity: 0.6;
   cursor: pointer;
 }
 .fill:hover {
