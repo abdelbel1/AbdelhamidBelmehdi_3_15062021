@@ -474,6 +474,9 @@ footer ul li a {
     margin: auto;
   }
 }
+.etape:hover {
+  background-color: #E6E6FA;
+}
 
 .new {
   color: #008766;

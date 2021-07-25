@@ -9,4 +9,7 @@
   @include desktop {
     margin: auto;
   }
+  &:hover {
+    background-color:#E6E6FA;
+  }
 }
